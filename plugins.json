@@ -6,10 +6,17 @@
     "version": "1.0.0-Alpha",
     "category": "tools",
     "description": "一款全平台资源聚合翻译平台，支持多种翻译服务",
-    "path": "plugins/tools/touch-translation-1.0.0-Alpha.tpex",
+    "path": "plugins/tools/com.tuffex.translation/1.0.0-Alpha/touch-translation-1.0.0-Alpha.tpex",
     "timestamp": "2025-09-26T15:13:00Z",
     "metadata": {
       "readme_path": "docs/plugins/touch-translation/README.md"
-    }
+    },
+    "versions": [
+      {
+        "version": "1.0.0-Alpha",
+        "path": "plugins/tools/com.tuffex.translation/1.0.0-Alpha/touch-translation-1.0.0-Alpha.tpex",
+        "timestamp": "2025-09-26T15:13:00Z"
+      }
+    ]
   }
 ]
