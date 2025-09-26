@@ -1,35 +1,60 @@
 ---
-name: Pull Request
-about: Suggest a change to the project
-title: ''
-labels: ''
+name: Plugin Contribution
+about: Add, update, remove, or report a plugin
+title: 'feat(plugin): [Action] - [Plugin Name]'
+labels: 'plugin'
 assignees: ''
+---
+
+### What kind of contribution is this?
+
+<!-- Please check the one that applies to this PR. -->
+
+- [ ] **✨ New Plugin**: I am submitting a new plugin.
+- [ ] **🚀 Update Plugin**: I am updating an existing plugin to a new version.
+- [ ] **🗑️ Remove Plugin**: I am requesting to remove a plugin.
+- [ ] **🐛 Report Issue**: I am reporting an issue with a plugin (e.g., outdated, broken, malicious).
 
 ---
 
-**What kind of change does this PR introduce?**
-<!-- Please check one or more of the following: -->
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Code style update (formatting, local variables)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Documentation content changes
-- [ ] Other... Please describe:
+### New Plugin / Update Plugin
 
-**What is the current behavior?**
-<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
+<!-- Please fill this out if you are submitting a new or updated plugin. -->
 
-Issue Number: N/A
+**Plugin ID:** `com.example.plugin`
+**Plugin Version:** `1.0.0`
 
-**What is the new behavior?**
-<!-- Please describe the new behavior that this PR introduces. -->
+**Checklist:**
+- [ ] The plugin is placed in the correct directory structure: `plugins/{category}/{plugin_id}/{version}/...`
+- [ ] The `plugins.json` file has been updated with the new/updated plugin information.
+- [ ] For updates, the `versions` array in `plugins.json` is correctly updated.
+- [ ] I have tested the plugin to ensure it works as described.
 
-**Does this PR introduce a breaking change?**
-- [ ] Yes
-- [ ] No
+**Description of changes:**
+<!-- A clear and concise description of what the new plugin does or what the update changes. -->
 
-<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
+---
 
-**Other information**:
+### Remove Plugin
+
+<!-- Please fill this out if you are requesting to remove a plugin. -->
+
+**Plugin ID:** `com.example.plugin`
+**Reason for removal:**
+<!-- A clear and concise description of why this plugin should be removed. -->
+
+---
+
+### Report Issue
+
+<!-- Please fill this out if you are reporting an issue with a plugin. -->
+
+**Plugin ID:** `com.example.plugin`
+**Issue Type:**
+- [ ] Outdated
+- [ ] Broken / Not working
+- [ ] Security vulnerability
+- [ ] Other (please describe below)
+
+**Description of the issue:**
+<!-- A clear and concise description of the problem. -->
