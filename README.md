@@ -2,9 +2,11 @@
 
 This repository contains official plugins for the Tuff application.
 
-## Installation
+## How It Works
 
-[Instructions on how to install and use these plugins will be added here.]
+This repository is structured to be used as a plugin marketplace for Tuff-compatible applications. The entire plugin ecosystem is driven by the `plugins.json` manifest file.
+
+For detailed instructions on how to integrate with this repository, please see our **[Integration Guide](docs/INTEGRATION.md)**.
 
 ## Contributing
 
